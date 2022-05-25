@@ -18,6 +18,10 @@ h1{
     margin-bottom: 35px;
 }
 
+h2{
+    font-size: small;
+}
+
 .intro{
     text-align: center;
     color: #0f0e17;
@@ -37,6 +41,7 @@ h1{
 }
 
 .item{
+    display: flex;
     background-color: #0f0e17;
     width: 30%;
     color: white;
@@ -44,4 +49,17 @@ h1{
 
 img{
    width: 80px;
+}
+
+.testo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    font-size: smaller;
+}
+
+.email{
+    color: #6ecbf2;
 }
