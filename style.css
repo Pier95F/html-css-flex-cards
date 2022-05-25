@@ -21,10 +21,27 @@ h1{
 .intro{
     text-align: center;
     color: #0f0e17;
+    margin-bottom: 35px;
 }
 
 /* layout */
 .container{
     width: 60%;
     margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.item{
+    background-color: #0f0e17;
+    width: 30%;
+    color: white;
+}
+
+img{
+   width: 80px;
 }
