@@ -1,0 +1,30 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* commons */
+body{
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #e53170;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.intro{
+    text-align: center;
+    color: #0f0e17;
+}
+
+/* layout */
+.container{
+    width: 60%;
+    margin: auto;
+}
